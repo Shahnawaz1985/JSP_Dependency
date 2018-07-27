@@ -9,7 +9,7 @@
 <body>
 <% out.print((String)request.getAttribute("test-param"));
 	Thread.sleep(10000);
-	//request.getRequestDispatcher("Process_2.jsp").forward(request, response);
+	request.getRequestDispatcher("Process2").forward(request, response);
 %>
 
 </body>
