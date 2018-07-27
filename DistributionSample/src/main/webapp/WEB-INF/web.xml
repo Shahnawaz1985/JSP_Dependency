@@ -21,11 +21,20 @@
 	      
 	      <servlet>
 	      	<servlet-name>Process</servlet-name>
-	      	<jsp-file>/custom/Process_2.jsp</jsp-file>
+	      	<jsp-file>/custom/Process.jsp</jsp-file>
 	      </servlet>
 	      <servlet-mapping>
 	      	<servlet-name>Process</servlet-name>
-	      	<url-pattern>/custom/Process_2.jsp</url-pattern>
+	      	<url-pattern>/Process1</url-pattern>
+	      </servlet-mapping>
+	      
+	      <servlet>
+	      	<servlet-name>Process2</servlet-name>
+	      	<jsp-file>/custom/Process_2.jsp</jsp-file>
+	      </servlet>
+	      <servlet-mapping>
+	      	<servlet-name>Process2</servlet-name>
+	      	<url-pattern>/Process2</url-pattern>
 	      </servlet-mapping>
 	      
 	      <welcome-file-list>

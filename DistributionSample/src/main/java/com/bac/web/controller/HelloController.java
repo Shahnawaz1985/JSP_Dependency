@@ -19,7 +19,7 @@ public class HelloController extends HttpServlet {
 		System.out.println("Inside doPost");
 		String param = request.getParameter("test");
 		param = param + " Hello";
-		RequestDispatcher rd = request.getRequestDispatcher("custom/Process.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/Process1");
 		request.setAttribute("test-param", param);
 		try {
 			rd.forward(request, response);
