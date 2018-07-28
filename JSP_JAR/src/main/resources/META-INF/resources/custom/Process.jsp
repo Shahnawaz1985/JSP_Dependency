@@ -9,6 +9,7 @@
 <body>
 <% out.print((String)request.getAttribute("test-param"));
 	Thread.sleep(10000);
+	System.out.println("Redirecting from Process.jsp");
 	request.getRequestDispatcher("Process2").forward(request, response);
 %>
 
