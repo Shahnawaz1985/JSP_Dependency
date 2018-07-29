@@ -26,6 +26,7 @@ public class HelloController extends HttpServlet {
 		} catch (ServletException | IOException e) {			
 			e.printStackTrace();
 		}
+		System.out.println("Outside doPost");
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) {
